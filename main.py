@@ -56,7 +56,7 @@ def get_list(message):
     bot.reply_to(message, text)
 
 
-# Сообщения без команд сохраняются в бд.
+# Сообщения без команд сохраняются в бд
 @bot.message_handler(func=lambda m: True)
 def save_msg(message):
     try:
