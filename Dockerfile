@@ -12,5 +12,5 @@ COPY main.py .
 # Объявляем, что тут будут важные данные
 VOLUME /app/data
 
-# Запускаем
+# Запускаем докер
 CMD ["python", "main.py"]
