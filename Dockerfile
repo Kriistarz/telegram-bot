@@ -9,7 +9,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Копируем код
 COPY main.py .
 
-# Объявляем, что тут будут важные данные
+# Объявляем, что тут будут важные данны
 VOLUME /app/data
 
 # Запускаем
